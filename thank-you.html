@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>You're in! | Peter Can't Cook</title>
+<meta name="description" content="Your free guide is on its way.">
+<meta name="theme-color" content="#FFF8EE">
+<meta property="og:title" content="You're in! | Peter Can't Cook">
+<meta property="og:description" content="Your free guide is on its way.">
+<meta property="og:type" content="website">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧈%3C/text%3E%3C/svg%3E">
+<style>
+:root{--cream:#FFF8EE;--butter:#F5C542;--butter-d:#E0AC1F;--ink:#222;--muted:#5b5348;--card:#fff;--line:#eadfca;--r:14px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{padding:18px 0 0}
+.brand{font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:1.05rem;letter-spacing:.2px}
+.hero{padding-top:22px;padding-bottom:34px;display:grid;gap:26px}
+.chip{display:inline-block;background:var(--butter);color:var(--ink);font-weight:700;font-size:.74rem;letter-spacing:.12em;padding:6px 12px;border-radius:999px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2rem,8.4vw,3.3rem);line-height:1.08;margin:14px 0 12px;letter-spacing:-.01em}
+.sub{font-size:1.08rem;color:var(--muted);margin:0 0 4px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:0 6px 22px rgba(60,40,0,.07)}
+form{display:grid;gap:14px}
+label.f{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+input[type=text],input[type=email]{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #cdbf9f;border-radius:10px;background:#fffdf8;color:var(--ink);min-height:48px}
+input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #1a73e8;outline-offset:2px}
+fieldset{border:0;margin:0;padding:0}
+legend{font-weight:600;font-size:.95rem;padding:0;margin-bottom:6px}
+.opts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.opts label{display:flex;align-items:center;justify-content:center;gap:5px;border:1.5px solid #cdbf9f;border-radius:10px;padding:10px 4px;min-height:46px;cursor:pointer;background:#fffdf8;font-size:.9rem;white-space:nowrap}
+.opts input{width:18px;height:18px;accent-color:#222}
+.consent{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;color:var(--muted)}
+.consent input{width:22px;height:22px;flex:none;margin-top:2px;accent-color:#222}
+button{font:inherit;font-weight:700;font-size:1.05rem;background:var(--butter);color:var(--ink);border:0;border-radius:12px;padding:15px 18px;min-height:52px;cursor:pointer;box-shadow:0 2px 0 var(--butter-d)}
+button:hover{background:#f8d160}
+.fine{font-size:.82rem;color:var(--muted);margin:2px 0 0}
+.cover{justify-self:center;width:min(78%,300px);aspect-ratio:3/4;border-radius:12px;background:linear-gradient(160deg,#F5C542,#f0a92e);box-shadow:0 14px 30px rgba(90,60,0,.25);display:flex;flex-direction:column;justify-content:space-between;padding:22px;transform:rotate(-2deg)}
+.cover b{font-family:Georgia,serif;font-size:1.9rem;line-height:1.05}
+.cover span{font-size:.82rem;font-weight:700;letter-spacing:.1em}
+.cover i{font-style:normal;font-size:2.4rem}
+.band{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:34px 0}
+.three{display:grid;gap:16px;margin:0;padding:0;list-style:none}
+.three li{display:flex;gap:14px;align-items:flex-start;font-weight:600}
+.three .n{flex:none;width:34px;height:34px;border-radius:50%;background:var(--butter);display:grid;place-items:center;font-weight:800}
+.about{padding-top:38px;padding-bottom:38px;display:grid;gap:20px}
+.photo{aspect-ratio:4/3;border-radius:var(--r);background:#efe3c8;border:1.5px dashed #bba878;display:grid;place-items:center;color:#8a7a52;font-size:.9rem;text-align:center;padding:12px}
+h2{font-family:Georgia,serif;font-size:1.6rem;line-height:1.15;margin:0 0 10px}
+.second{padding-top:10px;padding-bottom:44px}
+footer{padding:22px 0 40px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+footer a{color:inherit}
+.page{max-width:680px;margin:0 auto;padding:36px 20px 60px}
+.page h1{font-size:clamp(1.8rem,7vw,2.5rem)}
+.page h2{font-size:1.25rem;margin-top:26px}
+.draft{background:#fff3cd;border:1px solid #e6c768;border-radius:10px;padding:10px 14px;font-size:.9rem}
+.btnlink{display:inline-block;background:var(--butter);color:var(--ink);font-weight:700;padding:14px 20px;border-radius:12px;text-decoration:none;min-height:48px}
+@media(min-width:820px){
+ body{font-size:18px}
+ .hero{grid-template-columns:1.15fr .85fr;align-items:center;gap:48px;padding-top:44px;padding-bottom:56px}
+ .hero .cover{width:300px}
+ .three{grid-template-columns:repeat(3,1fr);gap:28px}
+ .about{grid-template-columns:1fr 1fr;align-items:center;gap:48px}
+}
+@media(prefers-reduced-motion:no-preference){button{transition:background .15s}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap"><div class="brand">Peter Can't Cook 🧈</div></div></header>
+<main class="page">
+<span class="chip">YOU'RE IN</span>
+<h1>Your guide is on its way</h1>
+<p class="sub">Check your inbox for an email from Peter Can't Cook with your link. It usually takes a minute or two.</p>
+<div class="card" style="margin:22px 0">
+<p style="margin:0"><b>Can't see it?</b> Look in your spam or promotions folder and mark it as "not spam" so you get the recipes next time.</p>
+</div>
+<p>Thanks for being here. If you cook one of the recipes, tell me which one in a reply to the email. I read them.</p>
+<p>— Peter</p>
+</main>
+<footer><div class="wrap">© Peter Can't Cook · <a href="privacy.html">Privacy Policy</a></div></footer>
+</body></html>
